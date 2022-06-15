@@ -232,3 +232,17 @@ input {
     margin: 2rem;
     border: #112533 1rem outset;
 }
+
+/*Animaciones*/
+.imgGaleria:hover {
+    animation: imgGaleria 4s;
+}
+
+@keyframes imgGaleria{
+    50% {
+        transform: scale(1.3);
+    }
+    75% {
+        border-radius: 20%;
+    }
+}

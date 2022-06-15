@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/estilos.css">
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
     <title>Super PC</title>
@@ -38,7 +39,8 @@
             </ul>
         </nav>
         <!--Fin navegacion--> 
-        <section id="galeria" class="contenedorGaleria">
+        <section id="galeria" class="contenedorGaleria" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <img class="imgGaleria" src="./img/componente.jpg" alt="">
             <img class="imgGaleria" src="./img/componente2.jpg" alt="">
             <img class="imgGaleria" src="./img/componente3.jpg" alt="">
@@ -46,7 +48,8 @@
             <h2>Galeria</h2>
         </section>
 
-        <section id="video" class="contenedorVideo">
+        <section id="video" class="contenedorVideo" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <h2>Sabes cuales son los componentes de una computadora?</h2>
             <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/-1clqsilLQ0?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
@@ -59,5 +62,10 @@
 
  	    <footer class="border">Pie de pagina</footer>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
