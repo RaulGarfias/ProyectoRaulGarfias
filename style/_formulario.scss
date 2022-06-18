@@ -1,0 +1,37 @@
+main{
+    p{
+        text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #098baa;
+    border: black 1rem outset;
+    color: white;
+    }
+
+    form {
+        margin-left: 76rem;
+        padding: 4rem;
+        ul {
+                list-style: none;
+                {
+                    li{
+                        padding: 1rem;
+                        {
+                            label {
+                                display: inline-block;
+                                width: 8rem;
+                                font-size: 3rem;
+                                padding: 1rem;
+                            }
+
+                            input {
+                                width: 15rem;
+                                padding: 2rem   ;
+                            }
+                        }
+                    }
+                
+                }
+        
+    }
+}
